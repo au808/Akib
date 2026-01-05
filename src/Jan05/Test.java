@@ -10,12 +10,12 @@ public class Test {
         Employer e3 = new Employer(103, "Softfarm", 400000.00);
         
         
-        Set set = new LinkedHashSet();
-        set.add(e1);
-        set.add(e1);
-        set.add(e2);
+        Set employers = new LinkedHashSet();
+        employers.add(e1);
+        employers.add(e2);
+        employers.add(e3);
         
-        for (Object obj : set) {
+        for (Object obj : employers) {
             System.out.println(obj);
         }
     }
