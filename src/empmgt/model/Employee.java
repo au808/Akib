@@ -9,22 +9,28 @@ public class Employee {
    private double salary;
    private int age;
    private String addr;
+   
 
-    public Employee(String id, String fname, String lname, String desig, String salary, String age, String addr) {
-        this.id= id;
+    public Employee(int id, String fname, String lname, String desig, String dept, double salary, int age, String addr) {
+        this.id = id;
         this.fname = fname;
         this.lname = lname;
         this.desig = desig;
+        this.dept = dept;
         this.salary = salary;
         this.age = age;
         this.addr = addr;
     }
+    
+    public Employee() {
+        // required for GUI forms
+    }
 
-    public String getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(int id) {
         this.id = id;
     }
 
@@ -60,19 +66,19 @@ public class Employee {
         this.dept = dept;
     }
 
-    public String getSalary() {
+    public double getSalary() {
         return salary;
     }
 
-    public void setSalary(String salary) {
+    public void setSalary(double salary) {
         this.salary = salary;
     }
 
-    public String getAge() {
+    public int getAge() {
         return age;
     }
 
-    public void setAge(String age) {
+    public void setAge(int age) {
         this.age = age;
     }
 
@@ -84,6 +90,4 @@ public class Employee {
         this.addr = addr;
     }
 
-   
-   
 }
