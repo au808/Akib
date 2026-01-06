@@ -1,5 +1,6 @@
 package jan06;
 
+
 public class Exception {
     public static void main(String[] args) {
 
@@ -7,7 +8,9 @@ public class Exception {
            int[] arr = {22, 33, 44};
             System.out.println(arr[5]);
             int x = 10/0;
+            System.out.println(x);
             String s = null;
+            System.out.println(s.length());
         }catch(ArrayIndexOutOfBoundsException e){
             System.out.println("Arry Problem");
         }catch(ArithmeticException e){
