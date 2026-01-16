@@ -1,0 +1,2 @@
+Hello This i my first line.
+And This i smy second line. i am testing a writing infile

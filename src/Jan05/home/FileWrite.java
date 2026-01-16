@@ -8,7 +8,7 @@ public class FileWrite {
         try{
             FileWriter myWriter = new FileWriter("myfile1.txt");
             myWriter.write("Files in Java might be trickey, but it is Fun!");
-            myWriter.close();
+            myWriter.close(); // must be clossed manually
             System.out.println("Successfully wrote to the file.");
         }catch(IOException e){
             System.out.println("An error occurred.");

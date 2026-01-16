@@ -62,6 +62,7 @@ public class Trainee {
     public String toString() {
         return "Trainee{" + "id=" + id + ", addr=" + addr + '}';
     }
+}
     
     
     
